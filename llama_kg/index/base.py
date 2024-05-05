@@ -10,7 +10,7 @@ from llama_index.core.langchain_helpers.text_splitter import SentenceSplitter
 from llama_kg.llm_predictor.KronOpenAILLM import KronOpenAI
 from llama_kg.llm_predictor.KronLLMPredictor import KronLLMPredictor
 
-from llama_kg.readers import S3ListReader
+from llama_kg.readers.S3ListReader import S3ListReader
 
 from pyvis.network import Network
 
