@@ -2,7 +2,7 @@ from typing import Optional, Union
 from llama_index.core.llms.llm import LLM
 from langchain.base_language import BaseLanguageModel
 
-from kron.llm_predictor.KronLangChainLLM import KronLangChainLLM
+from llama_kg.llm_predictor.KronLangChainLLM import KronLangChainLLM
 from llama_index.llms.openai import OpenAI
 
 from llama_index.core.llms.utils import LLMType

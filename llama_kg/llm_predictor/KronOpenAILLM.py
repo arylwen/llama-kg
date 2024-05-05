@@ -25,7 +25,7 @@ from llama_index.llms.openai.utils import (
     to_openai_message_dicts,
 )
 
-from kron.llm_predictor.openai_utils import kron_openai_modelname_to_contextsize
+from llama_kg.llm_predictor.openai_utils import kron_openai_modelname_to_contextsize
 
 class KronOpenAI(OpenAI):
 

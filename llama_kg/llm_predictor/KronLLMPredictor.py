@@ -5,7 +5,7 @@ from llama_index.core.service_context_elements.llm_predictor import  LLMPredicto
 from llama_index.core.llms.utils import LLMType
 from llama_index.core.callbacks.base import CallbackManager
 
-from kron.llm_predictor.utils import kron_resolve_llm
+from llama_kg.llm_predictor.utils import kron_resolve_llm
 
 class KronLLMPredictor(LLMPredictor):
     """LLM predictor class.

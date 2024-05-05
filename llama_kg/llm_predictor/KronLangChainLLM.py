@@ -4,7 +4,7 @@ from llama_index.core.bridge.langchain import OpenAI, ChatOpenAI
 
 from llama_index.core.llms import LLMMetadata
 
-from kron.llm_predictor.openai_utils import kron_openai_modelname_to_contextsize
+from llama_kg.llm_predictor.openai_utils import kron_openai_modelname_to_contextsize
 
 def is_chat_model(llm: BaseLanguageModel) -> bool:
     return isinstance(llm, BaseChatModel)
